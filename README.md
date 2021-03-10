@@ -45,7 +45,7 @@
     
 - 实例代码
 
-    - golang *runtime:4 ms,memory:3 MB*
+    - [golang](./example/00001.go) *runtime:4 ms,memory:3 MB*
     ```
     func twoSum(nums []int, target int) []int {
        hash_table := map[int]int{}
@@ -59,7 +59,7 @@
        return []int{}
     }
     ```
-    - python3 *runtime:44 ms,memory:14.6 MB*
+    - [python3](./example/00001.py) *runtime:44 ms,memory:14.6 MB*
     ```
     class Solution:
         def twoSum(self, nums: List[int], target: int) -> List[int]:
@@ -76,7 +76,7 @@
                 hash_table[val] = index     
             return []
     ```
-    - php *runtime:20 ms,memory:15.3 MB*
+    - [php](./example/00001.php) *runtime:20 ms,memory:15.3 MB*
     ```
     class Solution {
         /**
