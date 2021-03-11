@@ -128,3 +128,12 @@
     每个链表中的节点数在范围 [1, 100] 内
     0 <= Node.val <= 9
     题目数据保证列表表示的数字不含前导零
+    
+- 解题方法
+    - 模拟
+    
+- 实例代码
+
+    - [golang](./example/00002.go) *runtime:16 ms,memory:4.9 MB*
+    - [python3](./example/00002.py) *runtime:60 ms,memory:14.9 MB*
+    - [php](./example/00002.php) *runtime:25 ms,memory:15.1 MB*   
