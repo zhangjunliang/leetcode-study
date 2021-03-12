@@ -40,8 +40,12 @@
     只会存在一个有效答案
 
 - 解题方法
-    - 暴力枚举：时间复杂度O(N²),空间复杂度O(1)
-    - 哈希表：时间复杂度O(N),空间复杂度O(N)
+    - 暴力枚举
+        - 时间复杂度O(N²)
+        - 空间复杂度O(1)
+    - 哈希表
+        - 时间复杂度O(N)
+        - 空间复杂度O(N)
     
 - 实例代码
 
@@ -97,7 +101,7 @@
     }
     ```
     
-#### 00001.两数相加 
+#### 00002.两数相加 
         
 > 给你两个 非空 的链表，表示两个非负的整数。它们每位数字都是按照 逆序 的方式存储的，并且每个节点只能存储 一位 数字。
 
@@ -131,7 +135,8 @@
     
 - 解题方法
     - 模拟
-    
+        - 时间复杂度：O(max(m,n))
+        - 空间复杂度：O(max(m,n))
 - 实例代码
 
     - [golang](./example/00002.go) *runtime:16 ms,memory:4.9 MB*
@@ -172,10 +177,13 @@
 
     - 滑动窗口
     
+        - 时间复杂度：O(N)O(N)
+        - 空间复杂度：O(∣Σ∣)
+    
 - 实例代码
      
     - [golang](./example/00003.go) *runtime:x ms,memory:x MB*
     - [python3](./example/00003.py) 
         - 实现1 *runtime:52 ms,memory:14.9 MB*
         - 实现2 *runtime:80 ms,memory:15 MB*
-    - [php](./example/00003.php) *runtime:x ms,memory:x MB*  
+    - [php](./example/00003.php) *runtime:44 ms,memory:15.2 MB*  
