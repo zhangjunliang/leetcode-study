@@ -23,7 +23,7 @@ class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
         # 创建一个结点值为 None 的头结点, dummy 和 p 指向头结点, dummy 用来最后返回, p 用来遍历
         dummy = p = ListNode(None)
-            s = 0  # 初始化进位 s 为 0
+        s = 0  # 初始化进位 s 为 0
         while l1 or l2 or s:
             # 如果 l1 或 l2 存在, 则取l1的值 + l2的值 + s(s初始为0, 如果下面有进位1, 下次加上)
             s += (l1.val if l1 else 0) + (l2.val if l2 else 0)

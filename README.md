@@ -170,10 +170,12 @@
     
 - 解题方法
 
-    - 
+    - 滑动窗口
     
 - 实例代码
      
     - [golang](./example/00003.go) *runtime:x ms,memory:x MB*
-    - [python3](./example/00003.py) *runtime:x ms,memory:x MB*
+    - [python3](./example/00003.py) 
+        - 实现1 *runtime:52 ms,memory:14.9 MB*
+        - 实现2 *runtime:80 ms,memory:15 MB*
     - [php](./example/00003.php) *runtime:x ms,memory:x MB*  
