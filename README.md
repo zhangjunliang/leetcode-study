@@ -182,7 +182,10 @@
     
 - 实例代码
      
-    - [golang](./example/00003.go) *runtime:x ms,memory:x MB*
+    - [golang](./example/00003.go) 
+        - 实现1 *runtime:8 ms,memory:5.9 MB*
+        - 实现2 *runtime:0 ms,memory:2.7 MB*
+        - 实现3 *runtime:8 ms,memory:2.8 MB*
     - [python3](./example/00003.py) 
         - 实现1 *runtime:52 ms,memory:14.9 MB*
         - 实现2 *runtime:80 ms,memory:15 MB*
